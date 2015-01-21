@@ -1,4 +1,4 @@
-// Generated on 2015-01-20 using
+// Generated on 2015-01-18 using
 // generator-webapp 0.5.1
 'use strict';
 
@@ -325,6 +325,13 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     }
   });
 
